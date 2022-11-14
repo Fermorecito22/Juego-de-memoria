@@ -1,0 +1,55 @@
+body{
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgb(13, 10, 185) 12%, rgb(219, 105, 11) 78%, rgb(125, 214, 8) 82%);
+    font-family: sans-serif;
+    color: black;
+}
+main{
+width: 750px;
+  margin:  100px auto 50px;  
+  display: flex;
+  align-items: center;
+}
+
+.section1{
+    background-color:   rgb(3, 103, 128);
+    padding: 0 10px 10px 10px;
+    border-radius:  10px;
+}
+h1{
+    text-align: center;
+}
+button{
+    height:  110px;
+    width:  110px;
+    font-size: 40px;
+    color: rgb(238, 247, 246);
+    font-weight: bold;
+}
+button:hover{
+    cursor:  pointer;
+
+}
+.section2{
+    background-color: rgb(3, 103, 128);
+    width: 260px;
+    height: 404px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 10px;
+
+}
+.estadisticas{
+
+    border:  1px solid rgb(206, 139, 15);
+    height:  105px;
+    border-radius:  8px;
+    padding:  8px 20px;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+footer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
